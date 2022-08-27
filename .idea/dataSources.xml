@@ -8,11 +8,11 @@
       <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="远程连接" uuid="054234d2-d3dd-430f-80bc-b358c36d9b1d">
+    <data-source source="LOCAL" name="@43.138.220.99" uuid="20aef462-5bfc-4217-b6f2-f9e957301fd7">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://101.43.46.78:3306/</jdbc-url>
+      <jdbc-url>jdbc:mysql://43.138.220.99:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
