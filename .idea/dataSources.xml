@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="MySQL - @localhost" uuid="2a5b7e00-2668-47b5-a844-1e9d03ebb0df">
+    <data-source source="LOCAL" name="本地电脑" uuid="2a5b7e00-2668-47b5-a844-1e9d03ebb0df">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="serverTimezone" value="GMT" />
+      </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="@43.138.220.99" uuid="20aef462-5bfc-4217-b6f2-f9e957301fd7">
+    <data-source source="LOCAL" name="MemfireCloud" uuid="67f7b2c2-4fa2-41ab-9458-20b88d48b408">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://47.100.38.198:5433/db1c9f7090dc83492b97c98b06822c9cc6test</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="PlanetScale" uuid="16fea876-42a1-4fe3-9649-556e701e1aad">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://ap-southeast.connect.psdb.cloud:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="我的服务器" uuid="1a7d26d5-8d5b-4ef8-bf67-b9e86afc281d">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://43.138.220.99:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="服务器从库" uuid="2e55b746-7367-4928-96fd-d1ec9fe9ea10">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://43.138.220.99:3307</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
