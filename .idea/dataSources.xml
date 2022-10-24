@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="本地电脑" uuid="2a5b7e00-2668-47b5-a844-1e9d03ebb0df">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-      <driver-properties>
-        <property name="serverTimezone" value="GMT" />
-      </driver-properties>
-    </data-source>
     <data-source source="LOCAL" name="MemfireCloud" uuid="67f7b2c2-4fa2-41ab-9458-20b88d48b408">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
@@ -29,14 +19,26 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://43.138.220.99:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://fancyday.fit:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="autoReconnect" value="TRUE" />
+        <property name="autoReconnectForPools" value="TRUE" />
+        <property name="connectTimeout" value="30000" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="@43.138.220.99" uuid="a61d1a81-e714-4318-8bd8-c1e67deeccba">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://43.138.220.99:27017</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="服务器从库" uuid="2e55b746-7367-4928-96fd-d1ec9fe9ea10">
-      <driver-ref>mysql.8</driver-ref>
+    <data-source source="LOCAL" name="node1_hive" uuid="f21d1f63-4443-4672-8357-71c79b32dbd8">
+      <driver-ref>hive</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://43.138.220.99:3307</jdbc-url>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://192.168.88.151:10000</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
